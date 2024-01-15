@@ -13,8 +13,8 @@ namespace LinkedList
 
     public class MyLinkedList<T>
     {
-        private Node<T> Tail;
-        private Node<T> Head;
+        public Node<T> Tail;
+        public Node<T> Head;
         public int count;
 
         public MyLinkedList()
@@ -154,6 +154,16 @@ namespace LinkedList
 
             return null;
         }
-        public int Size() { return count; }
+        public int Size() 
+        {
+            var Start = Head;
+            int Siz = 0;
+            while (Start!=Tail ) 
+            {
+                Start = Start.Next;
+              Siz++;
+            }
+            return Siz; 
+        }
     }
 }
