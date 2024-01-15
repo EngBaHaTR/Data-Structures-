@@ -7,7 +7,7 @@ internal class Program
     {
         MyLinkedList<int> test = new MyLinkedList<int>();
 
-        test.AddLastItem(5);
+        test.AddLastItem(6);
         test.AddLastItem(2);
         test.AddLastItem(3);
         test.AddFirst(0);
