@@ -6,7 +6,7 @@ internal class Program
     private static void Main(string[] args)
     {
         MyLinkedList<int> test = new MyLinkedList<int>();
-
+        test.AddLastItem(6);
         test.AddLastItem(6);
         test.AddLastItem(2);
         test.AddLastItem(3);

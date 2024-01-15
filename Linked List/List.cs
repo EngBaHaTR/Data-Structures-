@@ -154,5 +154,6 @@ namespace LinkedList
 
             return null;
         }
+        public int Size() { return count; }
     }
 }
