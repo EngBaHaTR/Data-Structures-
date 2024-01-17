@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Queue
 {
-    internal  class Queue<T> : MyLinkedList<T>
+    public class Queue<T> : MyLinkedList<T>
     {
         public T item { get; set; }
         public MyLinkedList<T> q = new MyLinkedList<T>();
@@ -36,6 +36,8 @@ namespace Queue
         {
             q.PrintList();
         }
+
+
 
 
 
